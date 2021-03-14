@@ -1,0 +1,51 @@
+.row1:hover {
+    background-color: rgb(231, 229, 211);
+}
+
+.row1:nth-child(odd):hover {
+    background-color: rgb(231, 229, 211);
+}
+
+.heading {
+    color: teal;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.monthbtn {
+    background: white;
+    color: teal;
+    border: 2px solid teal !important;
+    transition: all 0.2s;
+}
+
+.monthbtn:hover {
+    background: teal;
+    color: white;
+}
+
+.header {
+    min-height: 100px;
+    border-radius: 0px 0px 8px 8px !important;
+}
+
+td {
+    text-align: center;
+}
+
+tr {
+    text-align: center;
+}
+
+thead {
+    text-align: center;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 25px !important;
+}
+
+.right {
+    margin: 0px;
+}
