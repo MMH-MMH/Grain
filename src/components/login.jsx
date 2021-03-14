@@ -40,12 +40,15 @@ class Login extends Form {
       marginTop: "20%",
       marginLeft: "auto",
       marginRight: "auto",
-      width: "80%",
+      width: "50%",
     };
     const head = {
       color: "teal",
       textAlign: "Center",
     };
+    const log = {
+      textAlign:"Center",
+    }
     return (
       <div style={st}>
         <h1 style={head}>Sign in</h1>
@@ -54,15 +57,17 @@ class Login extends Form {
           {this.renderInput("username", "Email")}
 
           {this.renderInput("password", "Password", "password")}
-          {this.renderButton("Login")}
-          {"  "}
-          {this.state.logging && (
-            <img
-              width="120px"
-              height="80px"
-              src="https://miro.medium.com/max/441/1*9EBHIOzhE1XfMYoKz1JcsQ.gif"
-            ></img>
-          )}
+          <div style={log}>
+            {this.renderButton("Login")}
+            {"  "}
+            {this.state.logging && (
+              <img
+                width="120px"
+                height="80px"
+                src="https://miro.medium.com/max/441/1*9EBHIOzhE1XfMYoKz1JcsQ.gif"
+              ></img>
+            )}
+          </div>
         </form>
       </div>
     );
