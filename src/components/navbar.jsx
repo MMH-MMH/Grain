@@ -12,7 +12,7 @@ class Navbar extends Component {
     const user = this.props.user;
 
     return (
-      <nav className="navbar navbar-expand navbar-dark bg-info rounded">
+      <nav className="navbar navbar-expand navbar-dark bg-info rounded header">
         <NavLink className="navbar-brand logo" to="/">
           Food Corporation of India
         </NavLink>
@@ -28,16 +28,12 @@ class Navbar extends Component {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="right">
+        
           <div className="navbar navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav mr-auto">
-              <li className="nav-item actice">
-                <NavLink className="nav-link" to="/">
-                  Demands
-                </NavLink>
-              </li>
+            <ul className="navbar-nav ml-auto">
+              
               {!user && (
-                <li className="nav-item">
+                <li className="nav-item active">
                   <NavLink className="nav-link" to="/login">
                     Login
                   </NavLink>
@@ -60,7 +56,7 @@ class Navbar extends Component {
               )}
             </ul>
           </div>
-        </div>
+        
       </nav>
     );
   }
