@@ -9,7 +9,7 @@ We are presenting the prototype of an AI based system to overcome this challenge
 
 * This repo consist of 2 branches:
   * Main branch: Frontend UI code (React.js)
-  * Backend Branch: Code for Central (Node.js)
+  * Backend Branch: Code for Central Server (Node.js)
   
 * For ML server code [click here](https://github.com/piyushg9794/Retail-Leakage-ML-Server).
 
