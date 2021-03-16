@@ -28,3 +28,10 @@ We are presenting the prototype of an AI based system to overcome this challenge
 ## ML Server:
 
 * For more information of our ML Server [Click Here](https://github.com/piyushg9794/Retail-Leakage-ML-Server).
+
+
+
+## Output:
+
+
+![](https://github.com/MMH-MMH/Retail-Leakage-and-Surplus-with-AI/blob/backend/Output.png)
